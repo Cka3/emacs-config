@@ -1,6 +1,6 @@
 
 (require 'evil-leader)
-(global-evil-leader-mode)global-evil-leader-mode)
+(global-evil-leader-mode)
 
 ;;Evil mode on
 (require 'evil)
@@ -15,4 +15,4 @@
 (global-evil-surround-mode 1)
 
 (require 'evil-easymotion)
-(evilem-define (kbd "<leader>-w") 'evil-forward-word-begin)
+(evilem-define (kbd "<f12>") 'evil-forward-word-begin)
