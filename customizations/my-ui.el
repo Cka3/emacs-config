@@ -7,6 +7,9 @@
 ;; Turn off the menu bar at the top of each frame because it's distracting
 (menu-bar-mode -1)
 
+;;No startup screen
+(setq inhibit-startup-screen t)
+
 ;; Show line numbers
 (global-linum-mode)
 

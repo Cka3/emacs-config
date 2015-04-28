@@ -63,6 +63,12 @@
     ;;Vim keybindings   
     evil
 
+    ;;Vim plugins
+    evil-leader
+    evil-surround
+    evil-easymotion
+  
+
     ;;
 ;;    neotree
 
