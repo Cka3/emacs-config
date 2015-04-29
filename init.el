@@ -136,6 +136,9 @@
 ;; These customizations make editing a bit nicer.
 (load "my-evil.el")
 
+;; My keybindings
+(load "my-keys.el")
+
 ;; Hard-to-categorize customizations
 (load "my-misc.el")
 
