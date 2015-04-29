@@ -70,3 +70,10 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; set magit colors
+(eval-after-load 'magit
+  '(progn
+     (set-face-foreground 'magit-diff-add "green3")
+     (set-face-foreground 'magit-diff-del "red3")
+     (set-face-background 'magit-item-highlight "dark slate gray")))

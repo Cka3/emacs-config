@@ -68,10 +68,9 @@
     evil-surround
     evil-easymotion
   
-
-    ;;
-;;    neotree
-
+    ;;neotree
+    neotree
+    
     ;; colorful parenthesis matching
     rainbow-delimiters
 
@@ -148,3 +147,4 @@
 ;; Langauage-specific
 (load "my-setup-clojure.el")
 (load "my-setup-js.el")
+(put 'dired-find-alternate-file 'disabled nil)
